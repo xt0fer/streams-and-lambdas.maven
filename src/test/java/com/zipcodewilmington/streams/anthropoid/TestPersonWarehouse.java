@@ -68,7 +68,7 @@ public class TestPersonWarehouse {
 
     @Test
     public void testGetNames() {
-        List<String> warehouseNames = warehouse.getNames();
+        List<String> warehouseNames = PersonWarehouse.getNames();
         List<String> localNames = new ArrayList<>();
         for (Person person : warehouse) {
             localNames.add(person.getName());
